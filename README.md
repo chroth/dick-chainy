@@ -1,6 +1,6 @@
 # DICK CHAINY
 
-Warning! This is a lunch hack experiment!
+Warning! This is a lunch hack experiment™!
 
 Takes a library and makes it chainable, passing last return value as the first parameter into the next value.
 
@@ -20,6 +20,6 @@ var results = calcy(30)
   .subtract(9)
   .ret();
 
-results.should.eql(59);
+console.log(results); // 41
 
 ```

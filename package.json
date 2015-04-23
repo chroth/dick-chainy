@@ -1,0 +1,34 @@
+{
+  "name": "dick-chainy",
+  "author": "Christofer Roth <christofer@dorian.se> (http://www.dorian.se)",
+  "version": "0.0.1",
+  "description": "A chaining experiment - let's make it chain.",
+  "homepage": "https://github.com/chroth/dick-chainy",
+  "keywords": [
+    "methods",
+    "syntax",
+    "chain",
+    "chaining"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "should": "~5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chroth/dick-chainy.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/chroth/dick-chainy/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/chroth/dick-chainy/issues"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.test.js"
+  }
+}

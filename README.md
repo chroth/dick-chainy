@@ -1,10 +1,6 @@
 # DICK CHAINY
 
-Warning! This is a lunch hack experiment™!
-
-Takes a library and makes it chainable, passing last return value as the first parameter into the next value.
-
-I'm not sure what to use it for at the moment.
+Warning! This was a lunch hack experiment™!
 
 ## Usage
 

@@ -7,8 +7,8 @@ describe("Dick.Chainy", function() {
     // Set up "library"
     var calculator = {
       add: function(x, y) { return x + y; },
-      goFish: function() { this.fish = 'cod'; },
-      subtract: function(x, y) { return x - y; }
+      nonsense: function() { this.testProp = 'Knife'; },
+      subtract: function(x, y) { return this.testProp === 'Knife' ? x - y : 0; }
     };
 
     // Get library
@@ -16,7 +16,7 @@ describe("Dick.Chainy", function() {
 
     var calcyObject = calcy(27)
       .add(23)
-      .goFish()
+      .nonsense()
       .subtract(8);
 
     var calcyObject2 = calcy(1000)

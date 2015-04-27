@@ -19,7 +19,7 @@ var dick = (function() {
             lastValue = newValue;
           }
 
-          return newValue !== undefined && typeof(newValue) !== objectType ? newValue : self;
+          return self;
         };
       }
 
